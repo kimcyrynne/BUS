@@ -12,7 +12,7 @@ class Vehicle {
     }
     
     public function fare() {
-        $fare = 110;
+        $fare = 100;
         return $fare;
     }
 }
