@@ -7,11 +7,11 @@
   }
   
   public function fare () {
-    $total_fare = $this->seating_capacity() * 110;
+    $total_fare = $this->seating_capacity() * 100;
     return $total_fare + ($total_fare * 0.10);
   }
 }
 
-$bus = new Bus("Victory Bus", 35, 85,);
+$bus = new Bus("Victory Bus", 30, 80);
 echo "The Bus Fare is: "bus->fare();
   ?>
